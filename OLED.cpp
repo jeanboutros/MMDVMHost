@@ -654,7 +654,7 @@ void COLED::OLED_statusbar()
     else if (m_mode == MODE_POCSAG)
         m_display.drawBitmap(0, 0, logo_POCSAG_bmp, 128, 16, WHITE);
     else
-        m_display.drawBitmap(0, 0, logo_glcd_bmp, 128, 16, WHITE);
+        m_display.drawBitmap(0, 0, logo_glcd_bmp, 128, 25, WHITE);
 
     if (m_displayScroll)
         m_display.startscrollright(0x00,0x02);
